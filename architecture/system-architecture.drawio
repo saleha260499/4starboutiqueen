@@ -1,0 +1,81 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="7-CkCh4BpWrWZYUZYm67">
+    <mxGraphModel dx="710" dy="363" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xuqKnDUqxdQU-MTr1rik-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Customer" vertex="1">
+          <mxGeometry height="30" width="60" x="362.5" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqKnDUqxdQU-MTr1rik-2" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="392" y="70" as="sourcePoint" />
+            <mxPoint x="392" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuqKnDUqxdQU-MTr1rik-6" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="392.16" y="170" as="sourcePoint" />
+            <mxPoint x="392.16" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuqKnDUqxdQU-MTr1rik-7" connectable="0" parent="xuqKnDUqxdQU-MTr1rik-6" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="&amp;nbsp;HTTPS / REST API" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuqKnDUqxdQU-MTr1rik-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Spring Boot API Business Logic&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="130" x="327.5" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqKnDUqxdQU-MTr1rik-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="React + Vit&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp;Frontend UI&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="332.5" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqKnDUqxdQU-MTr1rik-13" edge="1" parent="1" source="xuqKnDUqxdQU-MTr1rik-11" style="endArrow=classic;html=1;rounded=0;exitX=0.159;exitY=1.013;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xuqKnDUqxdQU-MTr1rik-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="362.5" y="310" as="sourcePoint" />
+            <mxPoint x="348.17" y="347.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuqKnDUqxdQU-MTr1rik-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="PostgreSQL&lt;div&gt;database&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqKnDUqxdQU-MTr1rik-16" edge="1" parent="1" source="xuqKnDUqxdQU-MTr1rik-11" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="340" as="sourcePoint" />
+            <mxPoint x="392.5" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuqKnDUqxdQU-MTr1rik-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Cloudinary&amp;nbsp;&lt;div&gt;images&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="362.5" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqKnDUqxdQU-MTr1rik-18" edge="1" parent="1" source="xuqKnDUqxdQU-MTr1rik-11" style="endArrow=classic;html=1;rounded=0;exitX=0.851;exitY=1.032;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="xuqKnDUqxdQU-MTr1rik-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="460" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuqKnDUqxdQU-MTr1rik-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JWT Security" vertex="1">
+          <mxGeometry height="30" width="60" x="440" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqKnDUqxdQU-MTr1rik-20" edge="1" parent="1" source="xuqKnDUqxdQU-MTr1rik-17" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="xuqKnDUqxdQU-MTr1rik-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="395.5" y="380" as="sourcePoint" />
+            <mxPoint x="392.5" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xuqKnDUqxdQU-MTr1rik-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="AWS Cloud" vertex="1">
+          <mxGeometry height="30" width="80" x="352.5" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqKnDUqxdQU-MTr1rik-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp;EC2 + RDS + Nginx&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="120" x="332.5" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqKnDUqxdQU-MTr1rik-25" edge="1" parent="1" source="xuqKnDUqxdQU-MTr1rik-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="xuqKnDUqxdQU-MTr1rik-23" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xuqKnDUqxdQU-MTr1rik-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value=" GitHub Actions&lt;br/&gt;                    (CI/CD)" vertex="1">
+          <mxGeometry height="30" width="90" x="347.5" y="530" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
